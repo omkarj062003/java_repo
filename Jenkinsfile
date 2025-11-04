@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/omkarj062003/java_repo.git'
+                git branch: 'main', url: 'https://github.com/omkarj062003/java_repo.git'
             }
         }
 
