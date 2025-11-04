@@ -1,4 +1,4 @@
-FROM openjdk:17-slim
+FROM openjdk:21-jdk-slim
 WORKDIR /app
 COPY . /app
 RUN javac Helloworld.java
